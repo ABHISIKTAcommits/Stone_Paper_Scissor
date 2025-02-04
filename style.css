@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://www.shutterstock.com/image-illustration/balloons-on-pastel-pink-background-600nw-1314815627.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.container{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.choices{
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+.choice{
+ background-color: rgb(255, 205, 241);
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    display: inline-flex;
+}
+button:hover {
+    box-shadow: 0 0 10px rgb(255, 0, 157);
+    background-color: rgb(250, 190, 232);
+}
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+#result.img{
+    justify-content: center;
+    align-items: center;
+}
